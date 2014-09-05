@@ -1,6 +1,6 @@
 {
   "name": "wechat-parser",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "解析微信推送的XML消息",
   "main": "index.js",
   "directories": {
@@ -10,6 +10,9 @@
     "微信",
     "XML",
     "parser",
+    "wechat-parser",
+    "wechat",
+    "xml-parser",
     "解析"
   ],
   "author": "zhongao <izhongao@gmail.com>",
