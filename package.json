@@ -1,6 +1,6 @@
 {
   "name": "wechat-parser",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "解析微信推送的XML消息",
   "main": "index.js",
   "scripts": {
@@ -23,7 +23,7 @@
     "mocha": "1.21.4",
     "should": "2.0.1"
   },
-  "repository": "zhongao/wechat-handler",
+  "repository": "zhongao/wechat-parser",
   "author": "zhongao <izhongao@gmail.com>",
   "license": "MIT"
 }
