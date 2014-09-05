@@ -1,8 +1,11 @@
 {
   "name": "wechat-parser",
-  "version": "0.3.0",
+  "version": "1.0.0",
   "description": "解析微信推送的XML消息",
   "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha"
+  },
   "keywords": [
     "微信",
     "XML",
@@ -12,10 +15,14 @@
     "xml-parser",
     "解析"
   ],
-  "repository": "zhongao/wechat-handler",
-  "author": "zhongao <izhongao@gmail.com>",
-  "license": "MIT",
   "dependencies": {
     "xml2js": "0.4.4"
-  }
+  },
+  "devDependencies": {
+    "mocha": "1.21.4",
+    "should": "2.0.1"
+  },
+  "repository": "zhongao/wechat-handler",
+  "author": "zhongao <izhongao@gmail.com>",
+  "license": "MIT"
 }
