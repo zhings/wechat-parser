@@ -97,11 +97,9 @@ describe('parse()', function() {
   it('parse badxml should not ok', function(done) {
     var badxml = path.join(__dirname, 'xmls/bad.xml');
     var stream = fs.createReadStream(badxml);
-    parser.original('xml');
     parse(stream, function(err, msg) {
-      (err == null).should.be.true;
-      msg.should.be.Object;
-      stream.xml.should.be.String;
+      err.should.be.ok;
+      (msg == null).should.be.true;
       done();
     });
   });
